@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: rgb(49, 60, 76);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: end;
+    padding: 20px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.nav {
+    font-size: 13px;
+}
+
+.nav:hover {
+    text-decoration: underline;
+}
+
+.profile {
+    cursor: pointer;
+}
+
+main {
+    height: 580px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.logo {
+    width: 270px;
+    margin-bottom: 30px;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width: 350px;
+    padding: 5px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    cursor: pointer;font-size: 1rem;
+}
+
+.search-box input {
+    border: none;
+    outline: none;
+    flex: 1;
+    font-size: 16px;
+}
+
+.search-box button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.buttons button {
+    background-color: #f8f9fa;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+@media only screen and (min-width: 865px) {
+    .search-box {
+        width: 40%;
+    }
+}
